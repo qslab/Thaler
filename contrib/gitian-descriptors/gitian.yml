@@ -23,8 +23,9 @@ remotes:
 - "url": "https://github.com/Thaler/Thaler.git"
   "dir": "Thaler"
 files:
-- "miniupnpc-1.6.tar.gz"
-- "qrencode-3.2.0.tar.bz2"
+- "miniupnpc-1.9.20140401.tar.gz"
+- "qrencode-3.4.3.tar.bz2"
+
 script: |
   INSTDIR="$HOME/install"
   export LIBRARY_PATH="$INSTDIR/lib"
